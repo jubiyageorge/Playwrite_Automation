@@ -7,7 +7,7 @@ export class WatchlistPage {
     async searchStock(stockName: string) {
 
         await this.page
-            .getByPlaceholder('Searchs eg: Saudi Aramco').first()
+            .getByPlaceholder('Search eg: Saudi Aramco').first()
             .fill(stockName);
     }
 
